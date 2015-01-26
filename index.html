@@ -36,16 +36,28 @@
             <h2>Interests</h2>
             <p>Things I am unironically enthusiastic about</p>
 			
-			<div class="interests-nav">
-      		<div class="container">
-        		<ul class="nav nav-tabs">
-          			<li class="active"><a href="#">Websites</a></li>
-          			<li><a href="#">People and Organizations</a></li>
-          			<li><a href="#">Books and Quotes</a></li>
-					<li><a href="#">Stuff I Do</a></li>
-       			</ul>
-      		</div>
+			<div role="tabpanel">
+
+  
+    <ul class="nav nav-tabs">
+        <li class="nav active"><a href="#A" data-toggle="tab">Websites</a></li>
+        <li class="nav"><a href="#B" data-toggle="tab">People and Organizations</a></li>
+        <li class="nav"><a href="#C" data-toggle="tab">Books and Quotes</a></li>
+        <li class="nav"><a href="#D" data-toggle="tab">Things I Do</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div class="tab-pane fade in active" id="A">Content inside tab A</div>
+        <div class="tab-pane fade" id="B">Content inside tab B</div>
+        <div class="tab-pane fade" id="C">Content inside tab C</div>
+        <div class="tab-pane fade" id="D">Content inside tab D</div>
     </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<script src="js/tabscript.js"></script>
 	
         </div>    
     </div>
@@ -70,5 +82,7 @@
 	    </div>
 	  </div>
 	</div>
+      <script src="js/vendor/jquery-1.11.1.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
