@@ -10,19 +10,48 @@
   </head>
 
   <body>
-    <div class="nav">
-      <div class="container">
-        <ul class="pull-left">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Browse</a></li>
-        </ul>
-        <ul class="pull-right">
-          <li><a href="#">Sign Up</a></li>
-          <li><a href="#">Log In</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-      </div>
+    
+         <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="img/icon.png" style="width:25px;height:25px"></a>
     </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="blog.html"> Blog <span class="sr-only">(current)</span></a></li>
+        <li><a href="https://github.com/NoahRCarver">Github</a></li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Go</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
     <div class="jumbotron">
       <div class="container">
@@ -146,18 +175,64 @@
         <div class="tab-pane fade" id="C">
 			<!--Content inside tab C-->
 			<h4>Books I Read and Fun Quotes</h4>
+			<div class="row">
+				<div class="col-md-3">
+					<p>book</p>
+					 <div class="thumbnail">
+      					<a href=""><img src="" style="width:150px;height:150px"></a>
+    				</div>
+					<p>book</p>
+					 <div class="thumbnail">
+      					<a href=""><img src="" style="width:150px;height:150px"></a>
+    				</div>
+				</div>
+				<div class="col-md-3">
+					<p>book</p>
+					 <div class="thumbnail">
+      					<a href=""><img src="" style="width:150px;height:150px"></a>
+    				</div>
+					
+					<p>book</p>
+					 <div class="thumbnail">
+      					<a href=""><img src="" style="width:150px;height:150px"></a>
+    				</div>
+				</div>
+				</div>
 			<p> <br> <br> <br> <br> <br><br> <br> </p>
 		</div>
         <div class="tab-pane fade" id="D">
 			<!--Content inside tab E-->
 			<h4>Things I Do to Make the World More Awesome!</h4>
-			
+			<div class="row">
+				<div class="col-md-3">
+					<p>book</p>
+					 <div class="thumbnail">
+      					<a href=""><img src="" style="width:150px;height:150px"></a>
+    				</div>
+					<p>book</p>
+					 <div class="thumbnail">
+      					<a href=""><img src="" style="width:150px;height:150px"></a>
+    				</div>
+				</div>
+			</div>
+				
 			<p> <br> </p>
 		</div>
 		<div class="tab-pane fade" id="E">
 			<!--Content inside tab E-->
 			<h4>Things I Think About to Make Myself Happy</h4>
-			
+			<div class="row">
+				<div class="col-md-3">
+					<p>book</p>
+					 <div class="thumbnail">
+      					<a href=""><img src="" style="width:150px;height:150px"></a>
+    				</div>
+					<p>book</p>
+					 <div class="thumbnail">
+      					<a href=""><img src="" style="width:150px;height:150px"></a>
+    				</div>
+				</div>
+			</div>
 			<p> <br> </p>
 		</div>
     </div>
