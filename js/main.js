@@ -1,13 +1,13 @@
 
 
- 
+
 var main = function(){
- 
+
     //Default Action
     $(".tab_content").hide(); //Hide all content
     $("ul.tabs li:first").addClass("active").show(); //Activate first tab
     $(".tab_content:first").show(); //Show first tab content
-     
+
     //On Click Event
     $("ul.tabs li").click(function() {
         $("ul.tabs li").removeClass("active"); //Remove any "active" class
@@ -17,7 +17,7 @@ var main = function(){
         $(activeTab).fadeIn(); //Fade in the active content
         return false;
     });
- 
-});
+
+};
 
 $(document).ready(main);
