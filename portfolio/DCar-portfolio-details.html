@@ -56,7 +56,6 @@
       <nav id="navbar" class="nav-menu navbar">
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <!--<li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>-->
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
@@ -109,16 +108,17 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>Project date</strong>: Summer 2019</li>
+                <li><strong>Techniques Used</strong>: SLAM, Monocular Depth Estimation, Visual Odometry, ROS
+                <li><strong>Poster</strong>: <a href="../assets/img/portfolio/DonkeyCar/Automated_Monocular_Exploration_With_Donkey_Car_Platform.pdf" title="More Details"><i class="bx bx-link"></i></a></li>
               </ul>
             </div>
             <div class="portfolio-description">
               <h2>Donkey Car Project</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                This was my first full-on robotics project. The robot was made of an RC Car, a PCA9685 Servo Driver, a Raspberry Pi and an 8MP PiCam, according to the <a href="www.donkeycar.com">Donkey Car</a> specifications.
+                The RPi would operate two ROS nodes to recieve control messages and publish images from the camera. Processing and control would be performed on a separate computer over Wifi. The control system performed well
+                in simulation, but the drive train of the RC car is best suited for fast, imprecise motion, not ideal for a low bitrate camera and high latency controls.
               </p>
             </div>
           </div>
